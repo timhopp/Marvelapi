@@ -19,7 +19,7 @@ export default class Marvel {
 
   get Template() {
     let Template = `
-    <div class="card bg-light m-3">
+    <div class="card bg-fun m-3 p-3 rounded">
     <h3>${this.name}</h3>
     <img class="img-fluid" src="${this.img}"/>
     <p>${this.description}</p>
